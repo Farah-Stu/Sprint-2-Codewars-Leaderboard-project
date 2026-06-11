@@ -24,7 +24,7 @@ The app still displayed valid users even when some usernames were invalid
 
 I tested the dropdown for selecting ranking type.
 
-All available languages plus “Overall” were displayed
+All available languages plus “Overall” were displayed.
 Selecting a language immediately updated the leaderboard
 No page refresh was required
 
@@ -39,29 +39,29 @@ No manual selection is required initially
 
 I tested that the leaderboard table renders correctly.
 
-Columns for Username, Clan, and Score are displayed correctly
+Columns for Username, Clan, and Score are displayed correctly.
 Data matches the selected ranking type (Overall or language-specific)
 
 6. Sorting (Highest → Lowest Score)
 
 I tested sorting behaviour manually and through automated tests.
 
-Users are sorted in descending order of score
-Highest scoring users appear at the top of the table
+Users are sorted in descending order of score.
+Highest scoring users appear at the top of the table.
 Sorting works for both Overall and language rankings
 
 7. Filtering Users Without Language Scores
 
 I tested selecting languages where some users had no score.
 
-Users without a score in the selected language are excluded
+Users without a score in the selected language are excluded.
 Only users with valid scores are displayed
 
 8. Top User Highlight
 
 I verified visual highlighting of the top user.
 
-The highest scoring user is highlighted using the top-scorer CSS class
+The highest scoring user is highlighted using the top-scorer CSS class.
 Highlight updates correctly when sorting 
 
 9. Accessibility Testing
@@ -85,7 +85,7 @@ All tests pass successfully using: npm test
 
 I tested entering both valid and invalid usernames together.
 
-Invalid usernames are reported with an error message
+Invalid usernames are reported with an error message.
 Valid users are still displayed correctly
 
 12. Network Error Handling
