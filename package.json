@@ -4,6 +4,7 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
+    "jest": "^30.4.2",
     "nock": "^14.0.0-beta.15"
   }
 }
