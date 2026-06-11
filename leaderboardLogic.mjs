@@ -1,5 +1,4 @@
 export function getSortedUsers(users, selectedLanguage) {
-    
   const filteredUsers = users.filter((user) => {
     if (selectedLanguage === "overall") {
       return user.ranks.overall?.score;
