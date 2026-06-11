@@ -4,8 +4,8 @@
 
 I tested entering multiple usernames separated by commas (e.g. CodeYourFuture,SallyMcGrath,40thieves) and clicking “Fetch”.
 
-The application correctly split the input into individual usernames
-Each username was processed and requested from the Codewars API
+The application correctly split the input into individual usernames.
+Each username was processed and requested from the Codewars API.
 The leaderboard populated with valid users only
 
 2. Fetching Data from Codewars API
